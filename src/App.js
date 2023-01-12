@@ -1,5 +1,4 @@
 import Dictionary from "./Dictionary";
-
 import "./App.css";
 
 export default function App() {
@@ -7,7 +6,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer>
           <a
